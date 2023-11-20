@@ -11,6 +11,9 @@
 #include <sstream>
 #include <algorithm>
 
+#include "define.h"
+#include "struct.h"
+
 namespace fs = std::filesystem;
 
 enum class Protocols {IPv4, nonIPv4, TCP, UDP, ICMP, otherL4};
